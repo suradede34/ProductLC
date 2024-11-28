@@ -1,0 +1,197 @@
+body {
+    font-family: 'Red Hat Text', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 375px;
+    height: 3837px;
+    background-color: #FCF8F6;
+    margin: 0 auto; 
+    padding-top: 10px; 
+} 
+.container h1 {
+    margin: 14px 0 32px 24px;
+    font-size: 42px; 
+    color: #260F08;
+}
+.header {
+    width: 327px;
+    height: 3143px;
+    margin: 32px 24px 32px;
+    background-color: #FCF8F6;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+}
+.dessertItem {
+    margin-bottom: 16px;
+}
+.dessertItem p{
+    color: #87635A;
+}
+.dessertItem h4{
+    color: #260F08;
+    margin-top: -10px;
+}
+.dessertItem h5{
+    color: #C73B0F;
+    margin-top: -14px;
+}
+.footer{
+    width: 327px;
+    height: 542px;
+    margin-left: 24px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+.footer h2{
+    padding-top: 24px;
+    margin-left: 24px;
+    color: #C73B0F;
+}
+.btn{
+    width: 160px;
+    height: 44px;
+    padding-bottom: 6px;
+    border-radius: 999px;
+    margin: -26px 87px;
+    background-color: white;
+    color: #260F08;
+    border: 1px solid var(--color-rose-400, #AD8A85);
+}
+.orderList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.orderTotal{
+    width: 279px;
+    display: flex;
+    align-items: center;
+    margin-top: 280px;
+    margin-left: 26px;
+    margin-top: 227px;
+}
+.orderTotal p{
+    color: #260F08;
+    margin-right: 84px;
+    margin-left: 8px;
+}
+.orderTotal h2 {
+    margin-top: -5px;
+}
+.notification{
+    width: 279px;
+    height: 52px;
+    background-color: #FCF8F6;
+    border-radius: 12px;
+    margin-left: 26px;
+}
+.notification img{
+    margin-top: 12px;
+    margin-left: 14px;
+}
+.button{
+    width: 279px;
+    height: 53px;
+    border-radius: 999px;
+    background-color: #C73B0F;
+    color: white;
+    border: none;
+    margin: 19px 26px;
+}
+@media screen and (min-width: 767.98px) {
+    .container{
+        width: 768px;
+        height: 1755px;
+    }
+    .container h1{
+        margin-left: 40px;
+    }
+    .header{
+        width: 688px;
+        height: 1021px;
+        margin-left: 40px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .dessertItem{
+        width: 213.33px;
+        height: 319px;
+    }
+    .dessertItem img{
+        width: 213.33px;
+        height: 212px;
+        padding: 8px;
+    }
+    .btn{
+        margin-left: 35px;
+    }
+    .btn img{
+        width: 20px;
+        height: 20px;
+    }
+    .footer{
+        width: 688px;
+        height:542px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .orderTotal{
+        width: 640px;
+        margin-top: 180px;
+    }
+    .orderTotal p{
+        margin-right: 450px;
+    }
+    .notification{
+        width: 640px;
+        height: 52px;
+    }
+    .notification img{
+        margin-left: 200px;
+    }
+    .button{
+        width: 640px;
+        height: 53px;
+        border-radius: 999px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .container{
+        width: 1440px;
+        height: 1361px;
+    }
+    .container h1{
+        width: 176px;
+        height: 48px;
+        margin: 88px 0px 0px 112px;
+    }
+    .header{
+        width: 800px;
+        height: 1105px;
+        margin: 32px 0px 0px 112px;
+    }
+    .footer{
+        width: 384px;
+        height: 542px;
+        margin-top: -1200px;
+        margin-left: 940px;
+    }
+    .orderTotal{
+        width: 336px;
+    }
+    .orderTotal p{
+        margin-right: 142px;
+    }
+    .notification{
+        width: 336px;
+        height: 52px;
+    }
+    .notification img{
+        margin-left: 40px;
+    }
+    .button{
+        width: 336px;
+        height: 53px;
+    }
+}
